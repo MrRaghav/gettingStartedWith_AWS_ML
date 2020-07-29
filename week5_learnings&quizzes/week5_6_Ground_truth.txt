@@ -1,0 +1,1 @@
+A capability of amazon sagemaker which automatically labels some data. It sends rest for manual labelling
