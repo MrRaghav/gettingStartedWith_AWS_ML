@@ -1,0 +1,23 @@
+we can use AWS Glue crawler.
+A crawler is a process that is going to
+traverse our data and try to extract a schema out of it.
+Then, once it's done, it will have
+a database and a table there that you can
+use with other AWS services like Athena.
+So the creation of our Glue crawler is rather simple.
+In our case, we just specify the path in
+an S3 bucket and give it
+a role that has access to that bucket,
+and can create tables and databases on Glue.
+So once we have that,
+we can start actually querying that data.
+I mentioned Athena, you can actually take Quicksight
+to have visualizations on
+data that is being created by Athena.
+This is the schema that was
+extracted from the public dataset.
+We see all of the columns that are there.
+We're going to focus on review body, which is the text,
+and product category, which
+is what we're going to try to predict,
+also called the target.
